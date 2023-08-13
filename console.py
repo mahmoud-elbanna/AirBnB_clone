@@ -9,7 +9,7 @@ from models.city import City
 from models.amenity import Amenity
 from models.place import Place
 from models.review import Review
-from models import Storage
+from models import storage
 
 
 class HBNBCommand(cmd.Cmd):
@@ -33,9 +33,7 @@ class HBNBCommand(cmd.Cmd):
         pass
 
     def do_create(self, line):
-        """Creates a new instance of BaseModel, saves it
-        (to the JSON file) and prints the id
-        """
+        """Creates a new instance of BaseModel, saves it"""
         if line == "":
             print("** class name missing **")
             return
@@ -70,9 +68,7 @@ class HBNBCommand(cmd.Cmd):
             return
 
     def do_destroy(self, line):
-        """Delete an instance based on the class name and id.
-        (save the change into the JSON file).
-        """
+        """Delete an instance based on the class name and id."""
         line_vactor = line.split()
         if line_vactor == []:
             print("** class name missing **")
@@ -94,9 +90,7 @@ class HBNBCommand(cmd.Cmd):
             return
 
     def do_all(self, line):
-        """Print all string representation of all instances
-        based or not on the class name.
-        """
+        """Print all string representation of all instances"""
         line_vactor = line.split()
 
         objects_string_representation = []
@@ -117,9 +111,7 @@ class HBNBCommand(cmd.Cmd):
         print(objects_string_representation)
 
     def do_update(self, line):
-        """Updates an instance based on the class name and id by adding
-        or updating attribute (save the change into the JSON file).
-        """
+        """Updates an instance based on the class name and id"""
         line_vector = line.split()
         vector_len = len(line_vector)
         if line_vector == []:
@@ -173,7 +165,7 @@ class HBNBCommand(cmd.Cmd):
             line_vector = line_vector[1].split('(')
             command = line_vector[0]
 
-            if command == 'all':  # <class name>.all()
+            if command == 'all':  # <class name>.all(
                 HBNBCommand.do_all(self, class_argument)  # all BaseModel
 
             elif command == 'count':  # <class name>.count()
@@ -198,7 +190,8 @@ class HBNBCommand(cmd.Cmd):
                 value_argument = line_vector[2]
                 name_argument = name_argument.strip(" '\"")
                 value_argument = value_argument.strip(' )')
-                argument = class_argument + ' ' + id_argument + ' ' + name_argument + ' ' + value_argument
+                argument = class_argument + ' ' + id_argument + \
+                    ' ' + name_argument + ' ' + value_argument
                 HBNBCommand.do_update(self, argument)
 
             else:
