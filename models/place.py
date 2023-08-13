@@ -1,11 +1,10 @@
 #!/usr/bin/python3
-"""Defines the place class"""
-
+"""Place class"""
 from models.base_model import BaseModel
 
 
 class Place(BaseModel):
-    """Child class of BaseModel"""
+    """Place class initialisation"""
 
     city_id = ""
     user_id = ""
