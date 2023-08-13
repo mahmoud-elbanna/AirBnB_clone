@@ -1,12 +1,18 @@
 #!/usr/bin/python3
-"""Defines the amenity class"""
-
+"""amenity model."""
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """
-    child class of BaseModel
-    has one attribute - name(empty string)
-    """
+    """amenity class."""
+
     name = ""
+
+    def __init__(self, *args, **kwargs):
+        """Instance Constructor.
+
+        args
+        name : string amenity name
+        """
+
+        super().__init__(*args, **kwargs)
