@@ -4,7 +4,7 @@
 Unittest classes:
     TestUser_instantiation
     TestUser_save
-    TestUser_to_dict
+    TestUser_to_dic
 """
 import os
 import models

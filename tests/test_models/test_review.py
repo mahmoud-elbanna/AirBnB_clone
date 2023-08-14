@@ -4,7 +4,7 @@
 Unittest classes:
     TestReview_instantiation
     TestReview_save
-    TestReview_to_dict
+    TestReview_to_dic
 """
 import os
 import models
