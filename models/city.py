@@ -1,10 +1,14 @@
 #!/usr/bin/python3
-"""City class"""
+"""Defines the city class"""
+
+
 from models.base_model import BaseModel
 
 
 class City(BaseModel):
-    """City class initialisation"""
-
+    """
+    child class of BaseModel
+    has 2 attributes - state id and name of the city
+    """
     state_id = ""
     name = ""
