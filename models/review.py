@@ -1,10 +1,14 @@
-#!/usr/bin/python3
-"""Review class"""
+!/usr/bin/python3
+"""Defines the review class"""
+
 from models.base_model import BaseModel
 
 
 class Review(BaseModel):
-    """Review class initialisation"""
+    """
+    child class of BaseModel
+    has 3 attributes(empty strings) - place_id, user_id and text
+    """
 
     place_id = ""
     user_id = ""

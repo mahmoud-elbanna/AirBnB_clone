@@ -1,9 +1,12 @@
-#!/usr/bin/python3
-"""State class"""
+!/usr/bin/python3
+"""Defines the state class"""
+
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """State class initialisation"""
-
+    """
+    child classs of BaseModel
+    represents a state, takes one atrr - name of the state
+    """
     name = ""
