@@ -1,15 +1,12 @@
 #!/usr/bin/python3
-"""Unit tests for Amenity class"""
-=======
-#!/usr/bin/python3
 """ Unit test amenity """
 
->>>>>>> master
 
 import unittest
 import models
 import os
 from models.amenity import Amenity
+
 
 
 class TestAmenity(unittest.TestCase):
