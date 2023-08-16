@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+!/usr/bin/python3
 '''Test Console Module'''
 
 from console import HBNBCommand

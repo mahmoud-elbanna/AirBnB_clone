@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+!/usr/bin/python3
 """Unit tests for city class"""
 
 import unittest

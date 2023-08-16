@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+!/usr/bin/python3
 """AirBnb Clone Project m This File Contains The Main
 Class "BaseModel" For The Project
 """
