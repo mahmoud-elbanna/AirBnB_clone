@@ -1,11 +1,7 @@
 #!/usr/bin/python3
-"""Unit tests for state class"""
-
-=======
-#!/usr/bin/python3
 """ Unit test Review """
+
 from sre_parse import State
->>>>>>> master
 import unittest
 import models
 import os
