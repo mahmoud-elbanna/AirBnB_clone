@@ -1,9 +1,5 @@
 #!/usr/bin/python3
-"""Unit tests for city class"""
-=======
-#!/usr/bin/python3
 """ Unit test City """
->>>>>>> master
 
 import unittest
 import models
