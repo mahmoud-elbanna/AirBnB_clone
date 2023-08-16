@@ -1,5 +1,11 @@
+<<<<<<< HEAD
+!/usr/bin/python3
+"""Unit tests for review class"""
+
+=======
 #!/usr/bin/python3
 """ Unit test Review """
+>>>>>>> master
 import unittest
 import models
 import os

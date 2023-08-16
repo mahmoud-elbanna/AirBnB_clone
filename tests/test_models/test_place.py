@@ -1,5 +1,11 @@
+<<<<<<< HEAD
+!/usr/bin/python3
+"""Unit tests for place class"""
+
+=======
 #!/usr/bin/python3
 """ Unit test Place """
+>>>>>>> master
 import unittest
 import models
 import os

@@ -1,12 +1,9 @@
-#!/usr/bin/python3
-"""Defines the amenity class"""
-
+!/usr/bin/python3
+""" Amenity Class That Inherits from BaseModel
+"""
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """
-    child class of BaseModel
-    has one attribute - name(empty string)
-    """
+    """ Class Constructor """
     name = ""

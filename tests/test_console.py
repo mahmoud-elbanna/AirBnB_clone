@@ -1,6 +1,16 @@
+<<<<<<< HEAD
+!/usr/bin/python3
+'''Test Console Module'''
+
+from console import HBNBCommand
+from unittest.mock import create_autospec
+from uuid import UUID
+import models
+=======
 #!/usr/bin/python3
 """Console Test Cases
 """
+>>>>>>> master
 import unittest
 from unittest.mock import patch
 from io import StringIO

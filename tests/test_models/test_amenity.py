@@ -1,6 +1,11 @@
+<<<<<<< HEAD
+!/usr/bin/python3
+"""Unit tests for Amenity class"""
+=======
 #!/usr/bin/python3
 """ Unit test amenity """
 
+>>>>>>> master
 
 import unittest
 import models
