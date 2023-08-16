@@ -29,7 +29,12 @@ class BaseModel:
             models.storage.new(self)
 
     def __str__(self):
+<<<<<<< HEAD
         """ Print a Readable String"""
+=======
+        """sets the print behaviour of the base model"""
+        class_name = self.__class__.__name__
+>>>>>>> master
         return "[{}] ({}) {}".format(type(self).__name__,
                                      self.id, self.__dict__)
 
