@@ -1,9 +1,5 @@
 #!/usr/bin/python3
-"""Unit tests for BaseModel class"""
-=======
-#!/usr/bin/python3
 """ Unit test BaseModel """
->>>>>>> master
 
 import unittest
 import models
